@@ -1,0 +1,62 @@
+/* Common shared styles start */
+Body {
+  font-family: "Open Sans", sans-serif;
+}
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+/* Common shared styles end */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+ul > li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.header-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto 250px;
+}
+.header-img {
+  height: 350px;
+}
+.about-me {
+  background-color: lightpink;
+}
+.about-box {
+  display: flex;
+  gap: 45px;
+}
