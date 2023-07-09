@@ -68,6 +68,9 @@ ul a {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section {
+  margin-top: 130px;
+}
 .banner {
   padding: 30px 30px 0px 150px;
   display: flex;
@@ -116,15 +119,53 @@ ul a {
 /* What i do section styles start  */
 .what-i-do-description {
   padding: 30px 150px;
+  background-color: gray;
 }
 .skills-container {
   margin-top: 10px;
   display: flex;
+  gap: 24px;
 }
 .skill {
   background: white;
   padding: 20px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description {
 }
 /* What i do section styles end  */
 
+/* Resume Section styles  */
+
+/* Resume Section ends  */
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institute{
+          margin-bottom: 20px;
+          margin-top: 0px;
+}
+.resume-item-institute,
+.resume-item-description {
+  color: #757575;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.resume-container hr {
+          margin: 30px;
+}
+.download-cv{
+          text-align: center;
+          margin-top: 30px;
+}
 /* Main section styles end  */
