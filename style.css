@@ -25,6 +25,7 @@ Body {
 nav {
   display: flex;
   justify-content: space-between;
+  margin: 0 210px;
 }
 
 nav > ul {
@@ -37,11 +38,17 @@ ul > li {
   margin-right: 50px;
 }
 
-ul li a {
+ul a {
   text-decoration: none;
+  color: #474747;
 }
 
-.header-body {
+/* Header related styles start */
+.header {
+          background-color: #FFF8F3;
+}
+/* Header related styles ends */
+.banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,8 +57,8 @@ ul li a {
   background-position: right;
   background-size: auto 250px;
 }
-.header-img {
-  height: 350px;
+.profile-pic {
+  height: 500px;
 }
 .about-me {
   background-color: lightpink;
@@ -59,4 +66,8 @@ ul li a {
 .about-box {
   display: flex;
   gap: 45px;
+} */
+
+.banner {
+      padding: 30px 30px 30px 150px; 
 }
