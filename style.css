@@ -109,9 +109,22 @@ ul a {
   display: flex;
   justify-content: space-around;
 }
-.about-info{
-          text-align: center;
+.about-info {
+  text-align: center;
 }
 /* about section styles end */
+/* What i do section styles start  */
+.what-i-do-description {
+  padding: 30px 150px;
+}
+.skills-container {
+  margin-top: 10px;
+  display: flex;
+}
+.skill {
+  background: white;
+  padding: 20px;
+}
+/* What i do section styles end  */
 
 /* Main section styles end  */
